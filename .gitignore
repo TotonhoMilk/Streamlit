@@ -1,0 +1,41 @@
+# Ambientes Virtuais (venc, env, .env)
+venv/
+env/
+.env
+.venv
+ENV/
+
+# Byte-compiled / arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / Pacotes (se você estiver criando uma lib)
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de log e bancos de dados locais
+*.log
+*.sqlite3
+
+# Configurações de IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Variáveis de ambiente (Segurança!)
+.env
+.flaskenv
